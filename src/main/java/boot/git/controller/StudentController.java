@@ -9,7 +9,8 @@ public class StudentController
 @GetMapping("/show")
 public String fecthStudent()
 {
-return "The Student name is Venkata Krishna";	
+
+return "welcome Student";
 }
 
 }
